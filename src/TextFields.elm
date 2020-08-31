@@ -3,7 +3,7 @@ module TextFields exposing (..)
 import Browser
 import Html exposing (Html, Attribute, div, input, text)
 import Html.Attributes exposing (..)
-import Html.Events exposing (..)
+import Html.Events exposing (onInput)
 
 -- MAIN
 main = Browser.sandbox { init = init, update = update, view = view }
